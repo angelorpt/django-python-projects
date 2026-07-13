@@ -1,0 +1,3 @@
+[submodule "modulo-01"]
+	path = modulo-01
+	url = https://github.com/angelorpt/fsc-python-01-basic
