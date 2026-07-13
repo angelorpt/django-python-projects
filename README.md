@@ -9,6 +9,7 @@ Curso de Python — fundamentos, Django e tópicos avançados, organizado em mó
 | Módulo | Status | Descrição | Repositório |
 |---|---|---|---|
 | `modulo-01` | ✅ Completo | Fundamentos da linguagem Python + introdução ao Django | [fsc-python-01-basic](https://github.com/angelorpt/fsc-python-01-basic) |
+| `fsc-python-django-02-todo-list` | ✅ Completo | To-do list com Django 5.2.7 | [fsc-python-django-02-to-do-list](https://github.com/angelorpt/fsc-python-django-02-to-do-list) |
 | `module-02` | 📦 Placeholder | A definir | — |
 
 ---
@@ -49,6 +50,17 @@ python manage.py runserver   # servidor de desenvolvimento
 ```
 
 > Todos os comandos do Django devem ser executados de dentro de `modulo-01/mini-project/`.
+
+### Django (fsc-python-django-02-todo-list)
+
+```bash
+source fsc-python-django-02-todo-list/venv/bin/activate
+python manage.py migrate         # criar banco SQLite
+python manage.py createsuperuser # admin user
+python manage.py runserver       # servidor de desenvolvimento
+```
+
+> Todos os comandos do Django devem ser executados de dentro de `fsc-python-django-02-todo-list/`.
 
 ---
 
