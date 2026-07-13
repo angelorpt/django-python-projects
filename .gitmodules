@@ -1,3 +1,6 @@
 [submodule "modulo-01"]
 	path = modulo-01
 	url = https://github.com/angelorpt/fsc-python-01-basic
+[submodule "fsc-python-django-02-todo-list"]
+	path = fsc-python-django-02-todo-list
+	url = git@github.com:angelorpt/fsc-python-django-02-to-do-list.git
